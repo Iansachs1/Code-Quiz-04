@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+
+                <div id=viewScores class="col-lg-2">
+                    View Highscores
+                </div>
+
+                <div class="col-lg-7"></div>
+
+                <div id="timeDisplay" class="col-lg-3">
+                    Time: 90
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+        <div class="card mainContents">
+            <div class="card-title">
+                <h3 id="titleText">
+                    Coding Quiz Challenge
+                </h3>
+            </div>
+            <div class="card-body">
+                <div id="bodyText">
+                    <p>
+                        This is a timed quiz to test your knowledge of javascript. Once you begin the quiz, you will have one minute and thirty seconds to answer as many questions as you can.
+                    </p>
+                    <p>
+                        You gain 10 points for every correct answer, and one point for every second left on the clock after answering all questions. 
+                    </p>
+                    <p>
+                        For every incorrect answer, 20 seconds will be subtracted from the remaining time.
+                    </p>
+                    <button id="beginBtn" class="btn btn-primary">
+                        Begin Quiz!
+                    </button>
+                </div>
+                <div id="response-area">
+
+                </div>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
